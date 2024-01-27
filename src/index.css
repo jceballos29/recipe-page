@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+
+  --dark-coral: #312E2C;
+  --dark-raspberry: #7A284E;
+  --brandy-red: #854632;
+  --wenge-brown: #5F564D;
+  --eggshell: #F3E5D7;
+  --white-coffee: #E3DDD7;
+  --snow: #FFF7FB;
+  --white: #FFFFFF;
+
+  font-family: 'Outfit', 'Young Serif', 'Helvetica Neue', 'Helvetica', 'Arial',
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+
+  color: var(--wenge-brown);
+  background-color: var(--eggshell);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
